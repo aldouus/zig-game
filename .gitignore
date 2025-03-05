@@ -1,0 +1,22 @@
+.build/**
+build/**
+zig-out/**
+.zig-cache/**
+game.exe
+game
+*.pdb
+*.rdbg
+sauce/shader.glsl_hlsl5_fs.glsl
+sauce/shader.glsl_hlsl5_fs.spv
+sauce/shader.glsl_hlsl5_vs.glsl
+sauce/shader.glsl_hlsl5_vs.spv
+sauce/shader.glsl_wgsl_fs.glsl
+sauce/shader.glsl_wgsl_fs.spv
+sauce/shader.glsl_wgsl_vs.glsl
+sauce/shader.glsl_wgsl_vs.spv
+atlas.png
+sauce/shader.zig
+font.png
+
+# macos stuff
+.DS_Store
