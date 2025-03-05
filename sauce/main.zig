@@ -3,7 +3,6 @@ const sapp = @import("sokol").app;
 const sg = @import("sokol").gfx;
 const sglue = @import("sokol").glue;
 const slog = @import("sokol").log;
-const linalg = @import("linalg");
 const shd = @import("shader.zig");
 
 // UTILS
@@ -13,7 +12,6 @@ pub const DEFAULT_UV = Vec4{ 0, 0, 1, 1 };
 pub const Vec2 = @Vector(2, f32);
 pub const Vec3 = @Vector(3, f32);
 pub const Vec4 = @Vector(4, f32);
-pub const Matrix4 = linalg.Matrix(4, f32);
 
 const AppState = struct {
     pass_action: sg.PassAction,
